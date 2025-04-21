@@ -1,0 +1,254 @@
+@media (max-width:1199px){
+
+    /*header*/
+    .header_warpper .navbar-expand-lg .navbar-nav{
+        align-items:center;
+    }
+
+    .header_warpper .navbar-expand-lg .navbar-nav .nav-link{
+        padding:0;
+        font-size:.875rem;
+    }
+
+    .main-btn{
+        font-size:.875rem;
+    }
+
+    /*booking area */
+    .booking-area{
+        padding:3rem .675rem;
+    }
+
+    .booking-area .main-btn{
+        padding-left:.3125rem !important;
+        padding-right:.3125rem !important;
+    }
+    
+    /*room*/
+    .rooms_wrapper .room-content{
+        padding:1rem 1.875rem;
+    }
+
+    .rooms_wrapper .room-content h5{
+        font-size:2rem 1.875rem;
+    }
+    .rooms_wrapper .room-content p{
+        font-size:0.75rem;
+    }
+
+    /*Services*/
+    .servicse-item-wrap .tab-content img {
+        width: 100%;
+    }
+    .servicse-menu-area ul li a{
+        margin-bottom: .8125rem;
+        overflow: hidden;
+    }
+
+    .servicse-menu-area ul li :nth-child(1){
+        margin-left: -4.4375rem;
+    }
+
+    .servicse-menu-area ul li :nth-child(2){
+        margin-left: -6.9375rem;
+    }
+
+    .servicse-menu-area ul li :nth-child(3){
+        margin-left: -9.375rem;
+    }
+
+    .servicse-menu-area ul li :nth-child(4){
+        margin-left: -12.8125rem;
+    }
+
+    .servicse-menu-area ul li a h5{
+        margin-bottom: .375rem;
+    }
+
+
+}
+
+@media (max-width:991px) {
+
+    /*custom scc */
+    .selection{
+    padding:1.875rem 0;
+    }
+
+    /*Navbar 2*/
+    .header-scrolled{
+        height:auto;
+    }
+    .menu-navebar-nav .menu-navebar-nav{
+        text-align:center;
+        padding-bottom:.9375rem;
+    }
+    .header_warpper .nav-item .nav-link{
+        margin-top:.9375rem;
+    }
+
+    /*banner wrapper*/
+    .banner_wrapper{
+        height:25.625rem;
+    }
+
+    .booking-area{
+    height:3.125rem 1.875rem; 
+    }
+
+    /*About*/
+    .banner_wrapper{
+        padding-top:25.375rem; 
+    }
+    
+    /*room*/
+    .rooms_wrapper .room-content{
+        padding:1rem 1.875rem;
+    }
+
+    .rooms_wrapper .room-content h5{
+        font-size:1.5rem 1.875rem;
+    }
+    .rooms_wrapper .room-content p{
+        font-size:1rem;
+    }
+
+    /*Services*/
+
+    .servicse-menu-area{
+        padding: 1.5rem 0.5rem;
+    }
+
+    .servicse-menu-area ul li{
+        margin-left: unset !important;
+    }
+    
+}
+
+@media(max-width:767px){
+    /*custom css*/
+    h1{
+        font-size:1.875rem;
+        line-height:2.5rem;
+    }
+
+    h3{
+        font-size:1.75rem;
+        line-height:2.1875rem;
+    }
+
+    h5{
+        font-size:1.25rem;
+    }
+    p{
+        font-size:.8125;
+        line-height:1.5rem;
+    }
+
+    /*blog*/
+    .blog_wrapper .blog-content{
+        margin: 0;
+    }
+
+    /*footer*/
+    .footer_wrapper > div{
+        padding: 0 1.875rem;
+    }
+}
+ @media (max-width: 768px) {
+     .slide-caption h1 {
+         font-size: 2.5rem;
+     }
+
+     .booking-area {
+         background: var(--bg-white);
+     }
+
+     .navbar-brand img {
+         width: 60px !important;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .service-item-wrap {
+         flex-direction: column;
+     }
+
+     .tab-content img {
+         border-radius: 15px 15px 0 0;
+         height: 300px !important;
+     }
+
+     .servicse-menu-area {
+         border-radius: 0 0 15px 15px;
+     }
+
+     .team_wrapper .card {
+         margin-bottom: 2rem;
+     }
+
+     .counter h1 {
+         font-size: 3rem;
+     }
+ }
+
+ /* تأثيرات للشاشات الصغيرة */
+ @media (max-width: 768px) {
+     .image-container {
+         margin: 0.5rem;
+         padding: 1rem;
+     }
+
+     .tab-image {
+         height: 300px;
+     }
+ }
+
+ /* جعل الصور تشغل نصف ارتفاع الشاشة */
+ @media (min-width: 992px) {
+     .room-image {
+         height: 50vh;
+         /* نصف ارتفاع الشاشة */
+     }
+ }
+
+
+ /* Responsive Design */
+ @media (max-width: 768px) {
+     .gallery_wrapper .row.g-0 {
+         gap: 1rem;
+         padding: 0 1rem;
+     }
+
+     .gallery-item {
+         margin-bottom: 1rem;
+         border-radius: 10px;
+         overflow: hidden;
+     }
+
+     .Price_wrapper .card {
+         margin-bottom: 2rem;
+     }
+
+     .price-badge {
+         right: -2.5rem;
+         padding: 0.4rem 2rem;
+     }
+ }
+
+ 
+ @media (max-width: 576px) {
+     h1 {
+         font-size: 2.5rem;
+         line-height: 3rem;
+     }
+
+     h3 {
+         font-size: 1.75rem;
+     }
+
+     .main-btn {
+         width: 100%;
+         text-align: center;
+     }
+ }
