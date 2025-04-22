@@ -116,11 +116,10 @@ p{
 
 .section-title::after{
     content:'';
-    background-image:url(img/Store.png);
+    background: var(--bg-white);
     background-position:center center;
     background-repeat:no-repeat;
     display:block;
-    margin-top:-0.9375rem;
     height:.9375rem;
 }
 
@@ -1390,9 +1389,9 @@ p{
 
 /* Blog Section */
 .blog-section {
-    background: #f8f9fa;
     padding: 4rem 0;
-}
+    background: linear-gradient(to bottom, var(--bg-white) 70%, var(--text-gray) 100%);
+    }
 
 .blog-hero {
             background:var(--bg-white);
